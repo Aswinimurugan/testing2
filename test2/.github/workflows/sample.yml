@@ -1,0 +1,7 @@
+name: Sample Build
+on: [push]
+jobs:
+  Build:
+    runs-on: [ self-hosted,windows]
+    steps:
+      -run: echo "Hello"
