@@ -4,4 +4,4 @@ jobs:
   Build:
     runs-on: windows-latest
     steps:
-      -run: echo "Hello World"
+      -run: echo "Hello"
