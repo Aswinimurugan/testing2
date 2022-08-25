@@ -2,6 +2,6 @@ name: Sample Build
 on: [push]
 jobs:
   Build:
-    runs-on: [ self-hosted,windows]
+    runs-on: windows-latest
     steps:
       -run: echo "Hello"
