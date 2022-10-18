@@ -11,7 +11,8 @@ jobs:
       - name: install putty
         run: |
           C:
-          cd 'Program Files'\PuTTY
+          cd 'Program Files'
+          cd PuTTY
           ls
           
         
