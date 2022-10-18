@@ -12,7 +12,8 @@ jobs:
         run: |
           choco install putty.install --version=0.71
           ls
-          cd C:/Program Files
+          cd C:\ProgramData\chocolatey
+          ls
           
         
       
