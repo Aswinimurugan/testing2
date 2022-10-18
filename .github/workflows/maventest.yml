@@ -11,8 +11,8 @@ jobs:
       - name: install putty
         run: |
           choco install putty.install --version=0.71
-          ls
           C:
+          cd Program Files
           ls
           
         
