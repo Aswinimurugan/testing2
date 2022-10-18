@@ -12,6 +12,7 @@ jobs:
         run: |
           C:
           cd 'Program Files'
+          ls
           cd PuTTY
           ls
           
