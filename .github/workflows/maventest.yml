@@ -4,13 +4,13 @@ on: [push]
 
 jobs:
   build:
-    runs-on: [self-hosted,windows]
+    runs-on: [self-hosted,linux]
 
     steps:
       - uses: actions/checkout@v3
-      - name: install putty
+      - name: install sshkey
         run: |
-          choco install putty.install --version=0.71
+          cd ~/.ssh
           
           
         
